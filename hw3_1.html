@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Class Calculator</title>
+    <link href="hw3_1.css" type="text/css" rel="stylesheet">
+    <script src="hw3_1.js"></script>
+	</head>
+
+	<body>
+		<h1>Grade Calculator</h1>
+
+        <form id="myForm">
+            <div id="assignments">
+                <div class="hw">
+                    HW <input class="earned" type="text" size="2" />
+                     / <input class="max" type="text" size="2" />
+                </div>
+
+                <div class="hw">
+                    HW <input class="earned" type="text" size="2" />
+                     / <input class="max" type="text" size="2" />
+                </div>
+
+                <div class="hw">
+                    HW <input class="earned" type="text" size="2" />
+                     / <input class="max" type="text" size="2" />
+                </div>
+            </div>
+
+
+            <div>
+                <label><input id="curve" type="checkbox" /> Curve +5 ?</label>
+            </div>
+        </form>
+        
+        
+        
+		<div id="resultsarea">
+			<div>
+
+				<button id="compute" onclick = "ComputeClick(); clearClick();">Compute!</button>
+                <button class="gone" onclick = "clearing();">Clear</button>  
+				              
+			</div>
+            <div class=pass>
+                
+                
+            </div>
+            <div class=fail>
+                
+            </div>
+		</div>
+        
+	</body>
+</html>

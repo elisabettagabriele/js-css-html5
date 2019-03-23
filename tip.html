@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+   <head>
+      <title>JavaScript Animation</title> 
+       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+       <link href="tip.css" type="text/css" rel="stylesheet">
+       <script src = "tip.js">
+       </script>
+   </head>
+   
+    
+   <body>
+        <img id="eagle" src="images/eagle.jpeg" alt = "au eagle"/>
+       <h1>Tip Calculator</h1>
+       <br>
+       <br>
+       
+       
+        <form id="info">
+           <div class="data">
+               <input id = "earned" type="text" size="14"  /> $Subtotal <br> <br>
+               <input id = "max" type="text" size="14" /> %Tip <br><br>
+               <p>You can also slide bar to enter tip</p>
+               <input type="range" id="myRange" value="0" min="0" max="50"> %Tip
+           </div>
+            <br>
+           <input type="button" value="Calculate!" onclick="calculate();" />
+       </form>
+       
+       <hr>
+       <h3>Your Total: </h3>      
+       
+       <div id="finalAmount">
+           
+           <div class = "totalNumber">
+           
+           
+           
+           </div>
+           
+            <div class= "bad">
+           
+           
+           </div>     
+       
+       </div>
+
+   </body>
+</html>
